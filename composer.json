@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/league-config",
+    "description": "Tyhp type definitions for league/config 1.2.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.2.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/league-config-impl": "~1.2.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/league-config-impl"
+        }
+    }
+}
